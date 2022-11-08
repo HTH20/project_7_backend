@@ -26,11 +26,6 @@ class DataScoring(BaseModel):
     NAME_EDUCATION_TYPE_Incomplete_higher : int
     NAME_EDUCATION_TYPE_Lower_secondary : int
     NAME_EDUCATION_TYPE_Secondary_secondary_special : int
-    
-    
-@app.get("/")
-def index():
-    return {"message": 'hello world'}
 
 @app.post('/predict')
 async def predict(data_scoring: DataScoring):
