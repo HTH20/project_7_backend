@@ -1,4 +1,3 @@
 fastapi
 pickle
-pickle
 uvicorn
